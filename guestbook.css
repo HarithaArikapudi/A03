@@ -1,0 +1,20 @@
+body{
+	background: salmon;
+    color: blue;
+    font-family: "Times Roman";
+}
+div.panel-body{
+	color: #000000;
+}
+footer{
+	color:rebeccapurple;
+}
+a{
+	color: firebrick;
+	text-decoration: underline;
+	font-weight: 500;
+}
+a:hover{
+	color: rebeccapurple;
+}
+

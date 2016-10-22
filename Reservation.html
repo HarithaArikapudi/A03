@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assests/page1.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Reservations</title>
+    <link rel="stylesheet" type="text/css" href="page2.css">
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+
+</head>
+<body >
+    <script src="Reservation.js"></script>
+<div>
+    <p> Reserve Your Table </p>
+</div>
+<ul>
+<li id="Home"><a href="assests/Home.html">Home</a></li>
+<li id="Reservations"><a href="assests/Reservation.html">Reservations</a></li>
+<li id="Contact"><a href="assests/contact.html">Contact </a></li>
+
+<li id="About"><a href="assests/About.html">About </a></li>
+<li id="guestbook"><a href=/guestbook>GuestBook</a></li>
+</ul>
+<div>
+<form>
+   <h3> First name:</h3><br>
+<input type="text" name="firstname" required >
+<br>
+<h3>Last name:</h3><br>
+<input type="text" name="lastname" required>
+<br><h3>Capacity:</h3> <select name="members">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option></select>
+ <h3>Select Day:</h3> <select name="Day">
+                <option value="Today">Today</option>
+                <option value="Tommorrow">Tommorrow</option>
+                
+        </select>
+<input type="button" value="Submit" onclick="clickCounter()">
+<p id="display">
+</p>
+
+
+</form>
+
+</div>
+
+</body>
+ 
+</html>
+
